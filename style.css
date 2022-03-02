@@ -4,35 +4,34 @@
 ===============================
  */
 
-body,input{
-    font-family: 'Poppins', sans-serif;
- }
-h3{
-    font-size: 22px;
-    font-weight: bold;
+body,
+input {
+  font-family: "Poppins", sans-serif;
 }
-a{
-    text-decoration: none;
-    color: #000;
+h3 {
+  font-size: 22px;
+  font-weight: bold;
 }
-
-#showPhone{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2rem;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-.makeCard,#showDetails{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 5px;
+#showPhone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
 }
 
-#spinner{
-    display: none;
+.makeCard,
+#showDetails {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
 }
 
-
-
+#spinner {
+  display: none;
+}
 
 /*
 =====================================
@@ -40,18 +39,18 @@ a{
  ====================================
   */
 
-@media(max-width : 991px){
-    #showPhone{
+@media (max-width: 991px) {
+  #showPhone {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-}
+  }
 }
 
-@media(max-width : 500px){
-    #showPhone{
+@media (max-width: 500px) {
+  #showPhone {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
-    }
+  }
 }

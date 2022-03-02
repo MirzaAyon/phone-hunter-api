@@ -1,7 +1,7 @@
 /* 
-===========================================================================
+
                          Handle Search Button
-===========================================================================
+
  */
 
 // Loading Spinner Function
@@ -38,9 +38,9 @@ document.getElementById('searchBtn').addEventListener("click", function () {
 
 
 /* 
-========================================================================
+
                         Load Phones Data Function
-========================================================================
+
  */
 const loadPhonesData = loadPhone => {
     const showPhone = document.getElementById('showPhone');
@@ -77,9 +77,9 @@ const loadPhonesData = loadPhone => {
 
 
 /* 
-===================================================================
+
                      Handle Show Phone Function
-===================================================================
+
  */
 
 const handleShowPhone = phoneData => {

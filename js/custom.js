@@ -37,11 +37,11 @@ document.getElementById('searchBtn').addEventListener("click", function () {
 
 
 
-/* 
 
-                        Load Phones Data Function
 
- */
+// Load Phones Data Function
+
+ 
 const loadPhonesData = loadPhone => {
     const showPhone = document.getElementById('showPhone');
     showPhone.innerHTML = '';
